@@ -1,0 +1,22 @@
+{
+  "name": "calendar-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-cli serve --mode=development"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "private": true,
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "svg2pdf.js": "^2.2.3"
+  }
+}
